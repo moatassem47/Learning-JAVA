@@ -32,19 +32,6 @@ public class strings {
         String sky = "the sky is blue";
         sky= sky.replace("sky", "sea");   
         System.out.println(sky.contains("sky"));
-        
-
-
-
-
-
-
-
-
-
-
-    
-    
     }
 
 }

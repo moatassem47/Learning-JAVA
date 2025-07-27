@@ -29,7 +29,10 @@ public class calculator {
             System.out.println(number1 *number2);
         }
         else if(operation.equals("/")){
+            if(number2!= 0){
             System.out.println(number1 / number2);
+        }
+        else{System.out.println("can't divide by zero");};
         }
 
         else{System.out.printf("%s is not a valid operation \n", operation);}
